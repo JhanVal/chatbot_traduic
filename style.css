@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    background: linear-gradient(rgb(37, 187, 32), white);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header {
+    background-color: black;
+    padding: 10px 40px;
+    text-align: center;
+}
+.logo {
+    width: 30%;
+}
+
+h1 {
+    color: rgb(0, 166, 91);
+}
+
+main {
+    text-align: center;
+}
+
+textarea {
+    width: 50%;
+    height: 60px;
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px black;
+}
+
+#respuesta{
+    width:50%;
+    margin:25px auto;
+    background:white;
+    padding:15px;
+    border-radius:6px;
+    box-shadow:0px 5px 10px black;
+    text-align:left;
+    min-height:60px;
+}
+
+button {
+    box-shadow:0px 5px 10px black;
+    border-radius:6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    background-color: rgb(0, 0, 0);
+    color: rgb(114, 253, 179);
+}   

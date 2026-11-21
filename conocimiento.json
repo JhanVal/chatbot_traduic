@@ -1,0 +1,54 @@
+[
+    {
+        "categoría": "Titulación",
+        "titulo": "Tesina",
+        "keywords": [
+            "requisitos tesina", "tesinas"
+        ],
+        "contenido": "La tesina es un trabajo individual acerca de un tema..."
+    },
+
+    {
+        "categoría": "Titulación",
+        "titulo": "Tesis",
+        "keywords": [
+            "tesis", "requisitos tesis"
+        ],
+        "contenido": "La tesis es un trabajo de investigación..."
+    },
+
+    {
+        "categoría": "Maestría",    
+        "titulo": "maestría",
+        "keywords": [
+            "requisitos maestría", "fechas maestría"
+        ],
+        "contenido": "En el mes ____ puedes inscribirte a la maestría con estos documentos..."
+    },
+    {
+        "categoría": "Beca",    
+        "titulo": "beca",
+        "keywords": [
+            "becas", "requisitos beca", "aumentar beca"
+        ],
+        "contenido": "Si mejoraste tu promedio ___ solicita un incremento en el área de becas."
+    },
+
+
+    {
+        "categoría": "Reinscripción",
+        "titulo": "Reinscripción",
+        "keywords": [
+            "costo", "pago"
+        ],
+        "contenido": "El costo de tu inscripción es..."
+    },
+    {
+        "categoría": "Reinscripción",
+        "titulo": "Reinscripción",
+        "keywords": [
+            "colegiatura", "pagar"
+        ],
+        "contenido": "El link para reinscribirte es..."
+    }
+]   
