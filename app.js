@@ -8,15 +8,16 @@ async function iniciar() {
     conocimiento = await response.json();
 
     fuse = new Fuse(conocimiento, {
-        keys: [
-            "titulo",
-            "keywords",
-            "contenido"
-        ],
-        threshold: 0.5,
-        includeScore: true
-    });
-
+    keys: [
+        { name: "keywords", weight: 0.7 },
+        { name: "titulo", weight: 0.2 },
+        { name: "contenido", weight: 0.1 }
+    ],
+    threshold: 0.3,
+    ignoreLocation: true,
+    minMatchCharLength: 3,
+    includeScore: true
+});
 }
 
 iniciar();
@@ -45,16 +46,15 @@ function buscarRespuesta() {
 
     const respuesta = document.getElementById("respuesta");
 
-    if (resultados.length > 0) {
-
+    if (
+        resultados.length > 0 &&
+        resultados[0].score < 0.3
+    ) {
         respuesta.innerHTML =
             resultados[0].item.contenido;
-
     } else {
-
         respuesta.innerHTML =
-            "No se encontró información, intenta con otras palabras.";
-
+            "No se encontró información, intenta con otras palabras";
     }
 
     textarea.value = "";
