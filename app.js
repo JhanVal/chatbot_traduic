@@ -60,7 +60,10 @@ function buscarRespuesta() {
     textarea.value = "";
     
     textarea.blur();
-
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+});
 }
 
 const btnLimpiar = document.getElementById("btnLimpiar");
