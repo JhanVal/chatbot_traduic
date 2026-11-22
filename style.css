@@ -6,22 +6,31 @@
 }
 
 body {
-    background: linear-gradient(rgb(37, 187, 32), white);
+    background: linear-gradient(rgb(107, 211, 104), white);
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 header {
     background-color: black;
-    padding: 10px 40px;
+    padding: 5px 10px;
     text-align: center;
 }
 .logo {
-    width: 30%;
+    margin-top: 20px;
+    width: 20%;
+    min-width: 19%;
 }
 
 h1 {
+    margin-bottom: 15px;
     color: rgb(0, 166, 91);
+    font-size: 1.5rem;
+}   
+p {
+    margin: -15px 10px 20px;
+    font-weight: bolder;    
+    font-size: 1rem;
 }
 
 main {
@@ -29,14 +38,14 @@ main {
 }
 
 textarea {
-    width: 50%;
+    width: 40%;
     height: 60px;
     border-radius: 6px;
     box-shadow: 0px 5px 10px black;
 }
 
 #respuesta{
-    width:50%;
+    width:40%;
     margin:25px auto;
     background:white;
     padding:15px;
@@ -49,8 +58,43 @@ textarea {
 button {
     box-shadow:0px 5px 10px black;
     border-radius:6px;
+    padding: 8px 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1rem;
     background-color: rgb(0, 0, 0);
-    color: rgb(114, 253, 179);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}  
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 101, 47);   
+}
+
+@media (max-width:430px) {
+.logo {
+    width: 70%;
+    min-width: 60%;
+}
+
+body {
+    font-size: 2rem;
+}
+
+textarea {
+    width: 80%;
+    height: 60px;
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px black;
+}
+
+#respuesta{
+    width:80%;
+}
+
+button {
+    margin: 40px auto;
 }   
+
+}
+
