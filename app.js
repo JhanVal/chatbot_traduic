@@ -61,10 +61,6 @@ function buscarRespuesta() {
     
     textarea.blur();
 
-    document.getElementById("respuesta").scrollIntoView({
-        behavior: "smooth",
-        block: "start"
-    });
 }
 
 const btnLimpiar = document.getElementById("btnLimpiar");
