@@ -54,7 +54,7 @@ function buscarRespuesta() {
             resultados[0].item.contenido;
     } else {
         respuesta.innerHTML =
-            "No se encontró información, intenta con otras palabras";
+            "💡 No se encontró la información, intenta con otras palabras";
     }
 
     textarea.value = "";

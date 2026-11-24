@@ -14,7 +14,7 @@
         "keywords": [
             "tesis", "requisitos tesis"
         ],
-        "contenido": "La tesis es un trabajo de investigación..."
+        "contenido": "La tesis es un trabajo de investigación y los requisitos son..."
     },
 
     {
@@ -23,7 +23,7 @@
         "keywords": [
             "requisitos maestría", "fechas maestría"
         ],
-        "contenido": "En el mes ____ puedes inscribirte a la maestría con estos documentos..."
+        "contenido": "En el mes de ____ puedes inscribirte a la maestría con estos documentos..."
     },
     {
         "categoría": "Beca",    
@@ -31,7 +31,7 @@
         "keywords": [
             "becas", "requisitos beca", "aumentar beca"
         ],
-        "contenido": "Si mejoraste tu promedio ___ solicita un incremento en el área de becas."
+        "contenido": "Si mejoraste tu promedio solicita un incremento en el área de becas."
     },
 
 
@@ -41,7 +41,7 @@
         "keywords": [
             "costo", "pago"
         ],
-        "contenido": "El costo de tu inscripción es..."
+        "contenido": "El costo de tu reinscripción es..."
     },
     {
         "categoría": "Reinscripción",
@@ -49,6 +49,6 @@
         "keywords": [
             "colegiatura", "pagar"
         ],
-        "contenido": "El link para reinscribirte es..."
+        "contenido": "El link para autogestionar tu reinscripción es..."
     }
 ]   
